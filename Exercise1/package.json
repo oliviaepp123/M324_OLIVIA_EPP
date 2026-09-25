@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "check:updates": "ncu --cooldown 3"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "dependencies": {
     "chalk": "^6.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "npm-check-updates": "^23.1.0"
+  }
 }
