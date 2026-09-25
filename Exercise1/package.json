@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "check:updates": "ncu --cooldown 3"
+    "check:updates": "ncu --cooldown 3",
+    "npx:demo": "npx npm-check-updates --version"
   },
   "keywords": [],
   "author": "",
