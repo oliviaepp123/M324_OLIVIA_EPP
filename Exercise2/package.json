@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write .",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,7 @@
     "@eslint/create-config": "1.11.0",
     "@eslint/js": "10.0.1",
     "eslint": "10.11.0",
-    "globals": "17.12.0"
+    "globals": "17.12.0",
+    "prettier": "^3.9.9"
   }
 }
