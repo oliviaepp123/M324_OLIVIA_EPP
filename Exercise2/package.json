@@ -2,11 +2,12 @@
   "name": "exercise2",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha \"*.test.js\""
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@eslint/js": "10.0.1",
     "eslint": "10.11.0",
     "globals": "17.12.0",
+    "mocha": "^12.0.3",
     "prettier": "^3.9.9"
   }
 }
