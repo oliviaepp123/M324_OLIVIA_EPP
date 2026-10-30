@@ -4,7 +4,7 @@
   "description": "Exam M324",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run lint && prettier --check . && node index.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
