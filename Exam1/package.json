@@ -4,7 +4,8 @@
   "description": "Exam M324",
   "main": "index.js",
   "scripts": {
-    "start": "npm run lint && prettier --check . && node index.js",
+    "start": "npm run lint && prettier --check . && npm run convert && node index.js",
+    "convert": "node convert.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +19,8 @@
     "npm": ">=11.21.1"
   },
   "dependencies": {
-    "chalk": "^6.0.1"
+    "chalk": "^6.0.1",
+    "marked": "^18.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

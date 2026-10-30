@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>07 - Clean Code</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 0 1em;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #d6d6d6;
+        padding: 6px 13px;
+      }
+      pre,
+      code {
+        background-color: #f0f0f0;
+      }
+      pre {
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+<h1 id="07---clean-code">07 - Clean Code</h1>
+<hr>
+<ul>
+<li><a href="#07---clean-code">07 - Clean Code</a><ul>
+<li><a href="#clean-code">Clean Code</a></li>
+<li><a href="#formatting">Formatting</a><ul>
+<li><a href="#prettier">Prettier</a></li>
+</ul>
+</li>
+<li><a href="#linting">Linting</a><ul>
+<li><a href="#eslint">ESLint</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="clean-code">Clean Code</h2>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Tool</th>
+<th>Example (JS)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Readability / Consistency</td>
+<td><strong>Formatter</strong></td>
+<td>Prettier</td>
+</tr>
+<tr>
+<td>Simplicity</td>
+<td><strong>Linter</strong></td>
+<td>ESLint</td>
+</tr>
+</tbody></table>
+<h2 id="formatting">Formatting</h2>
+<ul>
+<li>Lines are at most 80 characters long.</li>
+<li>Consistent use of quotation marks (<code>&quot;</code> vs <code>&#39;</code>).</li>
+</ul>
+<h3 id="prettier">Prettier</h3>
+<pre><code class="language-json">{
+  &quot;printWidth&quot;: 80,
+  &quot;singleQuote&quot;: true
+}
+</code></pre>
+<h2 id="linting">Linting</h2>
+<p><strong>Linting</strong> is static analysis of the code. It checks what the code <em>does</em>, not how it <em>looks</em>.</p>
+<ol>
+<li>Unused variables or functions.</li>
+<li>Compliance with project-specific rules.</li>
+</ol>
+<h3 id="eslint">ESLint</h3>
+<p>Read more on <a href="https://eslint.org/">ESLint</a>.</p>
+  </body>
+</html>
