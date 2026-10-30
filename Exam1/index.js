@@ -1,3 +1,8 @@
 import chalk from "chalk";
 
-console.log(chalk.green("It works"));
+let myUnusedVariable = "Exam M324";
+const message = "It works";
+
+if (message == "It works") {
+  console.log(chalk.green(message));
+}
